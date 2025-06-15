@@ -33,9 +33,9 @@ The project also includes a simple command-line interface that allows you to int
 ```
 > stack run
 Enter regex:
-a*b
+"a*b"
 Enter input string:
-aaab
+"aaab"
 Result: True
 ```
 
