@@ -21,3 +21,4 @@ main = do
   testCase "a" "a" True
   testCase "a" "b" False
   testCase "" "" True 
+  testCase "a*b*" "" True
