@@ -47,9 +47,10 @@ You need to have **Stack** or **Cabal** installed on your machine (it is recomme
 
 1. Clone or download the project:
 
-<git clone https://github.com/xouury/MiniRegexProject.git>
-
-<cd MiniRegexProject>
+```
+git clone https://github.com/xouury/MiniRegexProject.git
+cd MiniRegexProject
+```
 
 2. Build using **stack build**.
 
