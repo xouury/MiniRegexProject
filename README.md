@@ -30,12 +30,14 @@ You can call matchRegex with any supported regex string and input string.
 
 The project also includes a simple command-line interface that allows you to interactively enter regex and input strings. Example:
 
+```
 > stack run
 Enter regex:
 a*b
 Enter input string:
 aaab
 Result: True
+```
 
 ## Installation
 
