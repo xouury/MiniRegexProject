@@ -18,12 +18,13 @@ My project can be used in two different ways.
 
 A first way is directly importing the project into any Haskell program:
 
+```
 import RegexMatcher
-
 main :: IO ()
 main = do
     let result = matchRegex "a*b" "aaab"
     print result
+```
 
 You can call matchRegex with any supported regex string and input string.
 
