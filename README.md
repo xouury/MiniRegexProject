@@ -41,7 +41,7 @@ Result: True
 
 ## Installation
 
-You need to have **Stack** or **Cabal** installed on your machine (it is recommended to install **Stack**).
+You need to have **Stack** or **Cabal** installed on your machine (it is recommended to install **Stack**, use the following link: https://docs.haskellstack.org/en/stable/#__tabbed_2_1).
 
 # Building the project
 
