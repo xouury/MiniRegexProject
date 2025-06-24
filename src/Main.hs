@@ -8,8 +8,14 @@ import RegexMatcher
 main :: IO ()
 main = do
     putStrLn "Enter regex:"
-    regex <- getLine
+    regex <- fmap stripQuotes getLine
     putStrLn "Enter input string:"
     input <- getLine
     let result = matchRegex regex input
     putStrLn $ "Result: " ++ show result
+
+stripQuotes :: String -> String
+stripQuotes s = case s of
+  ('"':xs) -> reverse (dropWhile (== '"') (reverse xs))
+  _        -> s
+

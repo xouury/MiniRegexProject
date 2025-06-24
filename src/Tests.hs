@@ -2,7 +2,7 @@
 
 module Tests (main) where 
 
-import RegexMatcher
+import RegexMatcher (matchRegex)
 
 testCase :: String -> String -> Bool -> IO ()
 testCase regex input expected =
